@@ -1,5 +1,5 @@
 <template>
-<h1>Home Components</h1>
+<h1>Home Components {{10+20}}</h1>
 </template>
 <script>
 export default {
