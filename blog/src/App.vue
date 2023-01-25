@@ -10,6 +10,7 @@
 <PassDatatochild/>
 <ReuseComponnets/>
 <HtmlBinding/>
+<ClassBinding/>
 </template>
 
 <script>
@@ -23,6 +24,7 @@ import ForLoop from './components/ForLoop.vue'
 import PassDatatochild from './components/PassDatatochild.vue'
 import ReuseComponnets from './components/ReuseComponnets.vue'
 import HtmlBinding from './components/HtmlBinding.vue'
+import ClassBinding from   './components/ClassBinding.vue'
 export default {
     name: 'App',
     components: {
@@ -35,7 +37,8 @@ export default {
         ForLoop,
         PassDatatochild,
         ReuseComponnets,
-        HtmlBinding
+        HtmlBinding,
+        ClassBinding
     }
 }
 </script>
