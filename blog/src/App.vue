@@ -8,6 +8,7 @@
 <IfelseCondition/>
 <ForLoop/>
 <PassDatatochild/>
+<ReuseComponnets/>
 </template>
 
 <script>
@@ -19,7 +20,7 @@ import GetRadioandCheckbox from './components/GetRadioandCheckbox.vue'
 import IfelseCondition from './components/IfelseCondition.vue'
 import ForLoop from './components/ForLoop.vue'
 import PassDatatochild from './components/PassDatatochild.vue'
-
+import ReuseComponnets from './components/ReuseComponnets.vue'
 export default {
     name: 'App',
     components: {
@@ -30,7 +31,8 @@ export default {
         GetRadioandCheckbox,
         IfelseCondition,
         ForLoop,
-        PassDatatochild
+        PassDatatochild,
+        ReuseComponnets
     }
 }
 </script>
