@@ -11,6 +11,7 @@
 <ReuseComponnets/>
 <HtmlBinding/>
 <ClassBinding/>
+<Props/>
 </template>
 
 <script>
@@ -25,6 +26,7 @@ import PassDatatochild from './components/PassDatatochild.vue'
 import ReuseComponnets from './components/ReuseComponnets.vue'
 import HtmlBinding from './components/HtmlBinding.vue'
 import ClassBinding from   './components/ClassBinding.vue'
+import Props from './components/Props.vue'
 export default {
     name: 'App',
     components: {
@@ -38,7 +40,8 @@ export default {
         PassDatatochild,
         ReuseComponnets,
         HtmlBinding,
-        ClassBinding
+        ClassBinding,
+        Props
     }
 }
 </script>
