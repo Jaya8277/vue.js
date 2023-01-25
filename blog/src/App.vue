@@ -4,6 +4,7 @@
 <Home/>
 <Button/>
 <GetInput/>
+<GetRadioandCheckbox/>
 </template>
 
 <script>
@@ -11,6 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue'
 import Button from './components/Button.vue'
 import GetInput from './components/GetInput.vue'
+import GetRadioandCheckbox from './components/GetRadioandCheckbox.vue'
 
 export default {
     name: 'App',
@@ -18,7 +20,8 @@ export default {
         HelloWorld,
         Home,
         Button,
-        GetInput
+        GetInput,
+        GetRadioandCheckbox
     }
 }
 </script>
