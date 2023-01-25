@@ -1,6 +1,6 @@
 <template>
 <h1>Home Components {{10+20}}</h1>
-<h1>Home Components {{"Hello".length}}</h1>
+<h1>Homes Components {{"Hello".length}}</h1>
 <h1>Email{{email}}</h1>
 <h1>Mobile{{mobile}}</h1>
 <h1>Mobile{{mobile==6878}}</h1>

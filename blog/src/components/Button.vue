@@ -24,7 +24,7 @@ return{
         },getConsole(){
             console.log("function run sucess")
         },
-        getCount(){
+         getCount(){
             this.count = this.count +1
         },getCounts(){
             this.count=this.count - 1
