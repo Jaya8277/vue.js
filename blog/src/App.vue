@@ -6,6 +6,7 @@
 <GetInput/>
 <GetRadioandCheckbox/>
 <IfelseCondition/>
+<ForLoop/>
 </template>
 
 <script>
@@ -15,6 +16,7 @@ import Button from './components/Button.vue'
 import GetInput from './components/GetInput.vue'
 import GetRadioandCheckbox from './components/GetRadioandCheckbox.vue'
 import IfelseCondition from './components/IfelseCondition.vue'
+import ForLoop from './components/ForLoop.vue'
 
 export default {
     name: 'App',
@@ -24,7 +26,8 @@ export default {
         Button,
         GetInput,
         GetRadioandCheckbox,
-        IfelseCondition
+        IfelseCondition,
+        ForLoop
     }
 }
 </script>
