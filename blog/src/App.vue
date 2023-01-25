@@ -9,6 +9,7 @@
 <ForLoop/>
 <PassDatatochild/>
 <ReuseComponnets/>
+<HtmlBinding/>
 </template>
 
 <script>
@@ -21,6 +22,7 @@ import IfelseCondition from './components/IfelseCondition.vue'
 import ForLoop from './components/ForLoop.vue'
 import PassDatatochild from './components/PassDatatochild.vue'
 import ReuseComponnets from './components/ReuseComponnets.vue'
+import HtmlBinding from './components/HtmlBinding.vue'
 export default {
     name: 'App',
     components: {
@@ -32,7 +34,8 @@ export default {
         IfelseCondition,
         ForLoop,
         PassDatatochild,
-        ReuseComponnets
+        ReuseComponnets,
+        HtmlBinding
     }
 }
 </script>
