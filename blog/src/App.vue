@@ -12,6 +12,7 @@
 <HtmlBinding/>
 <ClassBinding/>
 <Props/>
+<Parent/>
 </template>
 
 <script>
@@ -27,6 +28,7 @@ import ReuseComponnets from './components/ReuseComponnets.vue'
 import HtmlBinding from './components/HtmlBinding.vue'
 import ClassBinding from   './components/ClassBinding.vue'
 import Props from './components/Props.vue'
+import Parent from './components/Parent.vue'
 export default {
     name: 'App',
     components: {
@@ -41,7 +43,8 @@ export default {
         ReuseComponnets,
         HtmlBinding,
         ClassBinding,
-        Props
+        Props,
+        Parent
     }
 }
 </script>
