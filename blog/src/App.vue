@@ -14,6 +14,7 @@
 <Props/>
 <Parent/>
 <Ref/>
+<SimpleForm/>
 </template>
 
 <script>
@@ -31,6 +32,7 @@ import ClassBinding from   './components/ClassBinding.vue'
 import Props from './components/Props.vue'
 import Parent from './components/Parent.vue'
 import Ref from './components/Ref.vue'
+import SimpleForm from './components/SimpleForm.vue'
 
 export default {
     name: 'App',
@@ -48,7 +50,8 @@ export default {
         ClassBinding,
         Props,
         Parent,
-        Ref
+        Ref,
+        SimpleForm
     }
 }
 </script>
