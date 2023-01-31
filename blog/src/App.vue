@@ -15,6 +15,7 @@
 <Parent/>
 <Ref/>
 <SimpleForm/>
+<FormModifires/>
 </template>
 
 <script>
@@ -33,7 +34,7 @@ import Props from './components/Props.vue'
 import Parent from './components/Parent.vue'
 import Ref from './components/Ref.vue'
 import SimpleForm from './components/SimpleForm.vue'
-
+import FormModifires from './components/FormModifires.vue'
 export default {
     name: 'App',
     components: {
@@ -51,7 +52,8 @@ export default {
         Props,
         Parent,
         Ref,
-        SimpleForm
+        SimpleForm,
+        FormModifires
     }
 }
 </script>
